@@ -23,7 +23,7 @@ def index():
     response.headers.add('Access-Control-Allow-Origin', '*') # To prevent Cors issues
     return response
 
-@app.route('/', methods=['GET']) # To prevent Cors issues
+@app.route('/convert', methods=['GET']) # To prevent Cors issues
 @cross_origin(supports_credentials=True)
 def index2():
     # Sent in GET requests
