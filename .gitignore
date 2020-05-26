@@ -3,7 +3,7 @@
 geckodriver.log
 *__pycache__
 *.log
-
+geckodriver
 # Distribution / packaging
 .Python
 env/
