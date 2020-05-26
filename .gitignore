@@ -2,7 +2,6 @@
 .history
 geckodriver.log
 *__pycache__
-config.txt
 *.log
 
 # Distribution / packaging
