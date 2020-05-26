@@ -1,0 +1,2 @@
+[config]
+SCRAP_HOST=http://127.0.01:5557
