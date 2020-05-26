@@ -13,6 +13,20 @@ app.config['Secret'] = "Secret"
 @cross_origin(supports_credentials=True)
 def index():
     # Sent in GET requests
+    response = jsonify({ 
+        'status':'success',
+        'message': 'Welcome to Money-rate API.',
+        'description': 'Give me query parameters "amount", "from", "to" to get the exchange-rate value !'
+    })
+    # Build the response
+    # Let's allow all Origin requests
+    response.headers.add('Access-Control-Allow-Origin', '*') # To prevent Cors issues
+    return response
+
+@app.route('/', methods=['GET']) # To prevent Cors issues
+@cross_origin(supports_credentials=True)
+def index2():
+    # Sent in GET requests
     response = core(
         request.args.get('amount'),
         request.args.get('from'),
