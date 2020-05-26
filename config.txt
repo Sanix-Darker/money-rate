@@ -1,2 +1,2 @@
 [config]
-SCRAP_HOST=http://127.0.01:5557
+SCRAP_HOST=http://161.35.63.16:5557

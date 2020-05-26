@@ -22,3 +22,8 @@ export PATH=$PATH:/path-to-extracted-file/.
 
 # For other OS's users, please check releases on https://github.com/mozilla/geckodriver/releases
 ```
+Put the geckodriver binary file in the root of this directory
+
+## Author
+
+- Sanix-darker
